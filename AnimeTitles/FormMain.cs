@@ -1,3 +1,5 @@
+using System;
+
 namespace AnimeTitles
 {
     public partial class FormAnimeTitles : Form
