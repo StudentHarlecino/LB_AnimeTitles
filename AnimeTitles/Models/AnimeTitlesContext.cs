@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
 
-namespace AnimeTitles;
+namespace AnimeTitles.Models;
 
 public partial class AnimeTitlesContext : DbContext
 {

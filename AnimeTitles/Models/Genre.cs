@@ -1,13 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace AnimeTitles;
+namespace AnimeTitles.Models;
 
-public partial class AnimeType
+public partial class Genre
 {
     public short Id { get; set; }
 
-    public string TypeOfAnime { get; set; } = null!;
+    public string GenreName { get; set; } = null!;
 
     public virtual ICollection<AnimeTitle> AnimeTitles { get; set; } = new List<AnimeTitle>();
 }
